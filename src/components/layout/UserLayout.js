@@ -1,4 +1,4 @@
-import { Flex, Heading, Text } from "@chakra-ui/react";
+import { Box, Flex, Heading, Text } from "@chakra-ui/react";
 import SidebarChildren from "./sidebar/SidebarChildren";
 
 export default function UserLayout({ children }){
@@ -44,8 +44,10 @@ export default function UserLayout({ children }){
           })}
         </Flex>
       </Flex>
-      <Flex backgroundColor='gray.100' w='full' p='4'>
-        {children}
+      <Flex backgroundColor='gray.300' w='full' p='8'>
+        <Box w='full' h='full' bg='white' borderRadius='8px' p='6'>
+          {children}
+        </Box>
       </Flex>
     </Flex>
   );
