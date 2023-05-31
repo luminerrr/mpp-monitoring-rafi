@@ -7,12 +7,6 @@ export default function Monitor() {
   return (
     <UserLayout>
       <Flex direction="column">
-        {/* <Flex
-          direction="row"
-          gap="4"
-          verticalAlign="center"
-          pt='6rem'
-        > */}
         <SimpleGrid columns={2}>
           <Box>
             <Image src={shipImg} borderRadius="8px" w="700px" />

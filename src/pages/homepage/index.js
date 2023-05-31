@@ -6,7 +6,7 @@ export default function Homepage() {
     <UserLayout>
       <Flex direction="column" alignItems="center" gap="4">
         <Heading>This is the homepage!</Heading>
-        <Text>Please choose options from the bar on the left!</Text>
+        <Text>RAFIIIIIIIIIIIIIIIIIII</Text>
       </Flex>
     </UserLayout>
   );
